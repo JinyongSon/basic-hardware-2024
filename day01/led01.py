@@ -14,17 +14,17 @@ GPIO.setup(led3, GPIO.OUT)
 
 try:
     while True:
-        GPIO.output(led1, True)
+        GPIO.output(led1, False)
         GPIO.output(led2, True)
         GPIO.output(led3, True)
         time.sleep(1)
-        GPIO.output(led1, False)
-        GPIO.output(led2, True)
-        GPIO.output(led3, False)
-        time.sleep(1)
-        GPIO.output(led1, False)
+        GPIO.output(led1, True)
         GPIO.output(led2, False)
         GPIO.output(led3, True)
+        time.sleep(1)
+        GPIO.output(led1, True)
+        GPIO.output(led2, True)
+        GPIO.output(led3, False)
         time.sleep(1)
 
 except KeyboardInterrupt:  #Ctrl + c
