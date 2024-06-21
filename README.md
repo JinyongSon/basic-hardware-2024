@@ -24,3 +24,14 @@
     - GPIO.input(channel) - channel: 핀번호, 반환값: H/L or 1/0 or T/F
 - 시간지연 함수
     - time.sleep(secs)
+- GPIO 제어
+    - LED, PWM, swich
+
+
+## 2일차
+- pir센서 활용
+    - pir센서를 이용하여 led제어
+- 초음파 거리 센서
+    - 초음파 거리 센서를 이용하여 부저 제어
+    
+
