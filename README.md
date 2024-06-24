@@ -33,5 +33,8 @@
     - pir센서를 이용하여 led제어
 - 초음파 거리 센서
     - 초음파 거리 센서를 이용하여 부저 제어
-    
+
+## 3일차
+- 가상환경 만들기
+    - python -m venv --system-site-packages env
 
